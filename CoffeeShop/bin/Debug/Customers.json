@@ -1,0 +1,131 @@
+{
+  "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.Customer, CoffeeShopLib]], mscorlib",
+  "$values": [
+    {
+      "$type": "CoffeeShopLib.Customer, CoffeeShopLib",
+      "Address": {
+        "$type": "CoffeeShopLib.Address, CoffeeShopLib",
+        "Street": "1 King St",
+        "City": "Toronto",
+        "Province": "ON",
+        "PostalCode": "M1M 1M1"
+      },
+      "CustomerId": 1,
+      "Name": "Coffee and sandwiches",
+      "Phone": 0,
+      "Orders": {
+        "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.Order, CoffeeShopLib]], mscorlib",
+        "$values": [
+          {
+            "$type": "CoffeeShopLib.Order, CoffeeShopLib",
+            "OrderId": 5,
+            "OrderTime": "2019-04-02T23:22:52.5295026-04:00",
+            "DeliveryTime": "2019-04-02T23:22:52.5315027-04:00",
+            "MenuCost": 7.10,
+            "Type": 1,
+            "Delivered": true,
+            "MenuItems": {
+              "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.OrderItem, CoffeeShopLib]], mscorlib",
+              "$values": [
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Suggar, CoffeeShopLib",
+                    "Description": "Original bland coffee, Sugar, Sugar",
+                    "BaseCost": 2.10
+                  }
+                },
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItems.SandwichWithBacon, CoffeeShopLib",
+                    "Description": "White bread sandwich with bacon",
+                    "BaseCost": 5.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "$type": "CoffeeShopLib.Order, CoffeeShopLib",
+            "OrderId": 6,
+            "OrderTime": "2019-04-02T23:23:48.2475363-04:00",
+            "DeliveryTime": "2019-04-02T23:23:48.2475363-04:00",
+            "MenuCost": 7.10,
+            "Type": 1,
+            "Delivered": true,
+            "MenuItems": {
+              "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.OrderItem, CoffeeShopLib]], mscorlib",
+              "$values": [
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Suggar, CoffeeShopLib",
+                    "Description": "Original bland coffee, Sugar",
+                    "BaseCost": 2.05
+                  }
+                },
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Tomato, CoffeeShopLib",
+                    "Description": "White bread sandwich with egg salad, Lettuce, Cheese, Mayo, Tomato",
+                    "BaseCost": 5.05
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$type": "CoffeeShopLib.Customer, CoffeeShopLib",
+      "Address": {
+        "$type": "CoffeeShopLib.Address, CoffeeShopLib",
+        "Street": "100 Dixie Rd",
+        "City": "Toronto",
+        "Province": "ON",
+        "PostalCode": "A1B2C3"
+      },
+      "CustomerId": 2,
+      "Name": "Emily",
+      "Phone": 1234567890,
+      "Orders": {
+        "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.Order, CoffeeShopLib]], mscorlib",
+        "$values": [
+          {
+            "$type": "CoffeeShopLib.Order, CoffeeShopLib",
+            "OrderId": 7,
+            "OrderTime": "2019-04-02T23:24:22.0975237-04:00",
+            "DeliveryTime": "0001-01-01T00:00:00",
+            "MenuCost": 8.06,
+            "Type": 0,
+            "Delivered": false,
+            "MenuItems": {
+              "$type": "System.Collections.Generic.List`1[[CoffeeShopLib.OrderItem, CoffeeShopLib]], mscorlib",
+              "$values": [
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Sweetener, CoffeeShopLib",
+                    "Description": "Original bland coffee, milk, Sweetener",
+                    "BaseCost": 2.16
+                  }
+                },
+                {
+                  "$type": "CoffeeShopLib.OrderItem, CoffeeShopLib",
+                  "MenuItem": {
+                    "$type": "CoffeeShopLib.MenuItemAdditions.Cheese, CoffeeShopLib",
+                    "Description": "White bread sandwich with roasted beef, Cheese",
+                    "BaseCost": 5.90
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
